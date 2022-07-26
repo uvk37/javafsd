@@ -1,5 +1,11 @@
 package multiinterface;
 
-public class CircleTwo {
+public interface CircleTwo {
+
+	float pi = 3.14f;
+	
+	void calculateArea(int radius);
+	
+	void calculateArea();
 
 }
